@@ -1,0 +1,146 @@
+.main
+{
+    width: 100%;
+    height: 200%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.main .francia
+{
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.main .francia .franja1F
+{
+    width: 33.3%;
+    height: 200px;
+    background-color: #0050A4;
+}
+
+.main .francia .franja2F
+{
+    width: 33.3%;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+
+.main .francia .franja3F
+{
+    width: 33.3%;
+    height: 200px;
+    background-color: #EF4135;
+}
+
+.main .alemania
+{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .alemania .franja1A
+{
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+}
+
+.main .alemania .franja2A
+{
+    width: 100%;
+    height: 200px;
+    background-color: #FF0000;
+}
+
+.main .alemania .franja3A
+{
+    width: 100%;
+    height: 200px;
+    background-color: #FFCC00;
+}
+
+.main .inglaterra
+{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    background-color:  #FF0000;
+    gap: 50px;
+    flex-wrap: wrap;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.main .inglaterra .cuadroBlanco
+{
+    width: 125px;
+    height: 75px;
+    background-color: white;
+}
+
+.main .japon
+{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    background-color:  #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.main .japon .circuloJ
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FF0000;
+}
+
+.main .mexico
+{
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.main .mexico .franja1M
+{
+    width: 33.3%;
+    height: 200px;
+    background-color: #006847;
+}
+
+.main .mexico .franja2M
+{
+    width: 33.3%;
+    height: 200px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .mexico .franja3M
+{
+    width: 33.3%;
+    height: 200px;
+    background-color: #CE1126;
+}
+
+.main .mexico .franja2M .escudo
+{
+    width: 100px;
+    height: 90px;
+    background-color: #35ef64;
+    border-radius: 50%;
+}
+
